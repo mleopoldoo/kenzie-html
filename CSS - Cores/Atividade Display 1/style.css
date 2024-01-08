@@ -1,0 +1,6 @@
+li {
+    display: inline ;
+    border: medium double black;
+    list-style: none;
+    font-size: 3em ;
+  }

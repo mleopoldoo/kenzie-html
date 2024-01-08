@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <form>
+        <label for="Nome">Nome</label>
+        <div>
+        <input type="text"  id="Nome" placeholder="Digite seu nome aqui.." required>
+            <div>
+                <br>
+        <label for="Email">E-mail</label>
+            <div>
+        <input type="email" id="Email" placeholder="Digite seu e-mail aqui.." required>
+        <div>
+            <br>
+            <label for="descricao">Oque te motivou participar do evento?</label>
+            <div></div>
+            <textarea for="descricao" cols="28" rows="5" id="descricao" required placeholder="Descreva aqui..."></textarea>
+            <div></div>
+            <br>
+
+            <label for="modulo">Selecione seu módulo</label>
+            <div></div>
+
+            <select id="modulo" required>
+                <option selected disabled>Escolher Módulo</option>
+                <option>Avançado</option>
+                <option>Intermediario</option>
+                <option>Iniciante</option>      
+
+
+            </select>
+                <div></div>
+                <br>
+            <label for="senha">Cadastre uma senha</label>
+            <div></div>
+            <input type="password" id="senha" required placeholder="Digite sua senha aqui...">
+<div></div>
+<br>
+            <label for="confirme">Confirme a senha</label>
+            <div></div>
+            <input type="password" required id="confirme" placeholder="Repita a senha...">
+            <div></div>
+            <br>
+            <label for="simnao">Deseja receber novidades em seu email?</label>
+            <div></div>
+            <br>
+            
+            <label for="radio-sim">Sim</label>
+            <input id="radio-sim" name="novidades" type="radio">
+            <label for="radio-nao">Não</label>
+            <input id="radio-nao" name="novidades" type="radio">
+            
+            <div></div>
+            <br>
+            <button type="submite">Cadastrar</button>
+
+
+    </form>
+</body>
+</html>
